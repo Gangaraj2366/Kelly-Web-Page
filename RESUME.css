@@ -1,0 +1,458 @@
+
+/* RESUME CONTAINT CSS START */
+
+*,p
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+html,body
+{
+    width: 100%;
+}
+
+.main-resume1
+{
+    border: 2px solid transparent;
+    margin: 5px;
+    margin-bottom: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cce0e010;
+}
+
+.main-resume1 .main-resume2
+{
+    border: 2px solid transparent;
+  margin: 5px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-resume1 .main-resume2 .resume-head
+{
+    border: 2px solid transparent;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 75px;
+}
+
+.main-resume1 .main-resume2 .resume-head h1
+{
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  padding-bottom: 10px;
+}
+
+.main-resume1 .main-resume2 .resume-head hr
+{
+   width: 55px;
+   height: 3.5px;
+   background-color:#3fbbc0;
+}
+
+.main-resume1 .main-resume2 .resume-head p
+{
+     font-size: 16px;
+     letter-spacing: 0.5px;
+     padding-top: 10px;
+     line-height: 23px;
+     text-align: center;
+}
+
+.main-resume1 .main-resume2 .resume-body
+{
+    border: 2px solid transparent;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 65px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left
+{
+    border: 2px solid transparent;
+    margin: 5px;
+    width: 50%;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left .resume-head-tag
+{
+    border: 2px solid transparent;
+    margin: 5px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left .resume-head-tag p
+{
+    font-size: 26px;
+  letter-spacing: 0.8px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left .resume-name-containt
+{
+    border: 2px solid transparent;
+    margin: 5px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left .resume-name-containt .resume-name-tag
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: -13px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left .resume-name-containt .resume-name-tag .empty-tag
+{
+    border: 2px solid #3fbbc0;
+    margin: 5px;
+    padding: 6.5px;
+    border-radius: 50%;
+    transform: translateY(7px);
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left .resume-name-containt .resume-name-tag .resume-name
+{
+    border: 2px solid transparent;
+    color: #1d685f;
+    margin-left: 6px;
+    transform: translateY(8.5px);
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left .resume-name-containt .resume-name-tag .resume-name h1
+{
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left .resume-name-containt .resume-paragraph
+{
+    border: 2px solid transparent;
+    border-left: 2px solid #3fbbc0;
+    padding-top: 18px;
+    margin-bottom: 5px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left .resume-name-containt .resume-paragraph p
+{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left .resume-name-containt .resume-paragraph .kkiinngg p.kingpin
+{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    margin-left: 21px;
+    margin-bottom: 5px;
+    padding-left: 10px; 
+    background-color: #3fbcc02a; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 115px;
+    font-weight: bold;
+    color: #3fbbc0;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left .resume-name-containt .resume-paragraph ul
+{
+    border: 2px solid transparent;
+    margin: 5px;
+    margin-left: 36px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-left .resume-name-containt .resume-paragraph ul li
+{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 29px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right
+{
+    border: 2px solid transparent;
+    margin: 5px;
+    width: 50%;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-head-tag
+{
+    border: 2px solid transparent;
+    margin: 5px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-head-tag p
+{
+    font-size: 26px;
+    letter-spacing: 0.5px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-right-tag
+{
+    border: 2px solid transparent;
+    margin: 5px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-right-tag .resume-name-tag
+{
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-right-tag .resume-name-tag .empty-tag
+{
+    border: 2px solid #3fbbc0;
+    margin: 5px;
+    margin: 5px;
+    padding: 6.5px;
+    border-radius: 50%;
+    transform: translateY(9px);
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-right-tag .resume-name-tag .resume-name
+{
+    border: 2px solid transparent;
+    color: #1d685f;
+    margin-left: 6px;
+    transform: translateY(10.5px);
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-right-tag .resume-name-tag .resume-name h1
+{
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-right-tag .resume-paragraph
+{
+    border: 2px solid transparent;
+    border-left: 2px solid #3fbbc0;
+    padding-top: 18px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-right-tag .resume-paragraph p
+{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    padding-left: 21px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-right-tag .resume-paragraph .kkiinngg p.kingpin
+{
+      
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    font-weight: bold;
+    padding-left: 12px;
+    background-color: #3fbcc02a; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 140px;
+    margin-left: 21px;
+    margin-bottom: 5px;
+    color: #3fbbc0;  
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-right-tag .resume-paragraph .kkiinngg p.kingpn
+{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    font-weight: bold;
+    padding-left: 12px;
+    background-color: #3fbcc02a; 
+    padding-top: 2px;
+    margin-left: 21px;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    width: 115px;
+    color: #3fbbc0;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-right-tag .resume-paragraph ul
+{
+    border: 2px solid transparent;
+    margin: 5px;
+    margin-left: 36px;
+}
+
+.main-resume1 .main-resume2 .resume-body .resume-body-right .resume-right-tag .resume-paragraph ul li
+{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+
+/* RESUME CONTAINT CSS START */
+
+/* Navigation bar css start */
+
+.nav-bar
+{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #e9e8e6;
+    box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 8%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.nav-bar h1
+{
+   font-size: 30px;
+   font-weight: 10;
+   letter-spacing: 1px;
+}
+
+.nav-bar .nav-anchors-logos
+{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 17px;
+      margin-bottom: 17px;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors
+{
+    margin: 5px;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 425px;
+      margin-right: 325px;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors ul
+{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors ul li
+{
+  list-style-type: none;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors ul li a
+{
+ text-decoration: none;
+ color: rgba(0, 0, 0, 0.699);
+ font-size: 15.5px;
+ font-weight: 550;
+ padding-right: 28px;
+ transition: 0.5s;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors ul li a.bb
+{
+ color: #3fbbc0;
+ font-size: 15.5px;
+ font-weight: 550;
+ padding-right: 28px;
+ transition: 0.5s;
+ text-decoration:none;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors ul li a.aa
+{ 
+    text-decoration: none;
+    color: black;
+    font-size: 15.5px;
+    font-weight: 550;
+    padding-right: 28px;
+    transition: 0.5s;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors ul li a:hover
+{
+    color: #3fbbc0;
+    text-decoration: 3px underline #3fbbc0;   
+}
+
+.nav-bar .nav-anchors-logos .nav-logos a
+{
+  text-decoration: none;
+}
+
+.nav-bar .nav-anchors-logos .nav-logos a i
+{
+  font-size: 17px;
+  padding-right: 8px;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+.nav-bar .nav-anchors-logos .nav-logos a i:hover
+{
+    color: blue;
+}
+
+/* Navigation bar css end */
+
+/* copyright css start */
+
+.copyright
+{
+  background-color: #55555525;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.copyright .copy
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.copyright .copy p
+{
+   font-size: 15px;
+   letter-spacing: 0.5px;
+   line-height: 25px;
+}
+.copyright .copy p b
+{
+   font-size: 15px;
+}
+
+.copyright .copy p a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: #3fbbc0;
+}
+
+/* copyright css end */

@@ -1,0 +1,372 @@
+
+*,p
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+html,body
+{
+    width: 100%;
+}
+
+/* Mapp contact css start  */
+
+.main-map1
+{
+    position: relative;
+    margin-top: 80px;
+  background-color: rgba(211, 211, 211, 0.123);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-map1 .main-map2
+{
+    position: relative;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-map1 .main-map2 .map-head
+{
+    margin-top: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-map1 .main-map2 .map-head h1
+{
+ font-size: 30px;
+ letter-spacing: 0.5px;
+ padding-bottom: 10px;
+}
+
+.main-map1 .main-map2 .map-head hr
+{
+ width: 70px;
+ height: 3.5px;
+ background-color: #3fbbc0;
+}
+
+.main-map1 .main-map2 .map-head p
+{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.main-map1 .main-map2 .map-body
+{
+    width: 100%;
+    margin: 10px 0px;
+    height: 300px;
+}
+
+.main-map1 .main-map2 .map-body iframe
+{
+    width: 100%;
+}
+
+/* Mapp contact css end  */
+
+/* Navigation bar css start */
+
+.nav-bar
+{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #e9e8e6;
+    box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 8%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.nav-bar h1
+{
+   font-size: 30px;
+   font-weight: 10;
+   letter-spacing: 1px;
+}
+
+.nav-bar .nav-anchors-logos
+{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 17px;
+      margin-bottom: 17px;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors
+{
+    margin: 5px;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 425px;
+      margin-right: 325px;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors ul
+{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors ul li
+{
+  list-style-type: none;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors ul li a
+{
+ text-decoration: none;
+ color: rgba(0, 0, 0, 0.699);
+ font-size: 15.5px;
+ font-weight: 550;
+ padding-right: 28px;
+ transition: 0.5s;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors ul li a.cc
+{
+ color: #3fbbc0;
+ font-size: 15.5px;
+ font-weight: 550;
+ padding-right: 28px;
+ transition: 0.5s;
+ text-decoration: none;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors ul li a.aa
+{ 
+    text-decoration: none;
+    color: black;
+    font-size: 15.5px;
+    font-weight: 550;
+    padding-right: 28px;
+    transition: 0.5s;
+}
+
+.nav-bar .nav-anchors-logos .nav-anchors ul li a:hover
+{
+    color: #3fbbc0;
+    text-decoration: 3px underline #3fbbc0;
+    
+}
+
+.nav-bar .nav-anchors-logos .nav-logos a
+{
+  text-decoration: none;
+}
+
+.nav-bar .nav-anchors-logos .nav-logos a i
+{
+  font-size: 17px;
+  padding-right: 8px;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+.nav-bar .nav-anchors-logos .nav-logos a i:hover
+{
+    color: blue;
+}
+
+/* Navigation bar css end */
+
+/* FORM CSS START */
+
+.main-list
+{
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-list .left-list-containt
+{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.main-list .left-list-containt .logo-information
+{
+    margin: 5px;
+    display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.main-list .left-list-containt .logo-information .logos
+{
+    margin: 5px;
+    padding: 12px 15px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.281);
+    background-color: #3fbcc031;
+    margin-right: 10px;
+}
+
+.main-list .left-list-containt .logo-information .logos a i
+{
+    font-size: 20px;
+    color: #3fbbc0;
+}
+
+.main-list .left-list-containt .logo-information .information
+{
+    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 60px;
+}
+
+.main-list .left-list-containt .logo-information .information h1
+{
+   font-size: 21.5px;
+   padding-bottom: 3px;
+}
+
+.main-list .left-list-containt .logo-information .information p
+{
+   font-size: 15px;
+   padding-top: 5px;
+}
+
+.main-list .address-right
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.main-list .address-right form
+{
+    width: 871px;
+    height: 325px;
+}
+
+.main-list .address-right form input
+{
+   margin-top: 50px;
+   margin-left: 25px;
+   margin-bottom: px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-right: 220px;
+   padding-left: 10px;
+   outline: none;
+   border: 1px solid lightgray;
+}
+
+.main-list .address-right form input.lll
+{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 643px;
+    border: 1px solid lightgray;
+}
+
+.main-list .address-right form textarea
+{
+  margin-left: 25px;
+  margin-right: 20px;
+  border: 1px solid lightgray;
+  outline: none;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.main-list .address-right form a
+{
+   text-decoration: none;
+   border: 1px solid #3fbbc0;
+   background-color: #3fbbc0;
+   padding: 13px 22px;
+   color: white;
+   font-size: 17px;
+   margin-left: 340px;
+   border-radius: 5px;
+}
+
+.main-list .address-right form a:hover
+{
+ background-color: #3fbcc0d0;
+}
+
+/* FORM CSS END */
+
+/* copyright css start */
+
+.copyright
+{
+  background-color: #55555525;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.copyright .copy
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.copyright .copy p
+{
+   font-size: 15px;
+   letter-spacing: 0.5px;
+   line-height: 25px;
+}
+.copyright .copy p b
+{
+   font-size: 15px;
+}
+
+.copyright .copy p a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: #3fbbc0;
+}
+
+/* copyright css end */
